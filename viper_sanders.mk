@@ -38,6 +38,10 @@ PRODUCT_NAME := viper_sanders
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
+# Maintainer name
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.viper.maintainer=marminino
+
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
