@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/viper_sanders.mk
+	$(LOCAL_DIR)/hydrus_sanders.mk

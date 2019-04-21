@@ -25,7 +25,7 @@ $(call inherit-product, device/motorola/sanders/device.mk)
 $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
 
 # Inherit some common ViperOS stuff.
-$(call inherit-product, vendor/viper/config/common_full_phone.mk)
+$(call inherit-product, vendor/hydrus/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
@@ -34,13 +34,13 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sanders
-PRODUCT_NAME := viper_sanders
+PRODUCT_NAME := hydrus_sanders
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
 # Maintainer name
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.viper.maintainer=marminino
+    ro.viper.maintainer=Jorge Lucas
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
