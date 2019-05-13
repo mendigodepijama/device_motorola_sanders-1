@@ -1,10 +1,10 @@
 [
   {
-    "repository": "android_vendor_motorola_sanders",
+    "repository": "mendigodepijama/vendor_motorola_sanders-1",
     "target_path": "vendor/motorola/sanders"
   },
   {
-    "repository": "android_kernel_motorola_sanders",
+    "repository": "mendigodepijama/android_kernel_motorola_msm8953-sanders",
     "target_path": "kernel/motorola/msm8953"
   },
   {

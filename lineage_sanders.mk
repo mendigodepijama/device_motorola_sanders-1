@@ -24,23 +24,22 @@ $(call inherit-product, device/motorola/sanders/device.mk)
 # Inherit from Sanders-Vendor
 $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
 
-# Inherit some common ViperOS stuff.
-$(call inherit-product, vendor/hydrus/config/common_full_phone.mk)
+#  Add some stuffs
+$(call inherit-product, vendor/ExtraStuff/lawnchair.mk)
+# $(call inherit-product, vendor/ExtraStuff/motocam_dependencies.mk)
+
+# Inherit some common ROM stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
-TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sanders
-PRODUCT_NAME := hydrus_sanders
+PRODUCT_NAME := lineage_sanders
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
-
-# Maintainer name
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.viper.maintainer=Jorge Lucas
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
@@ -51,3 +50,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # FINGERPRINT
 BUILD_FINGERPRINT := google/walleye/walleye:9/PPP3.180510.008/4811556:user/release-keys 
 VENDOR_BUILD_FINGERPRINT := google/walleye/walleye:9/PPP3.180510.008/4811556:user/release-keys
+
+# Unofficial build ID
+TARGET_UNOFFICIAL_BUILD_ID := mendigodepijama
