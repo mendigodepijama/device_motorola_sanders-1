@@ -1,0 +1,16 @@
+[
+  {
+    "repository": "mendigodepijama/vendor_motorola_sanders-1",
+    "target_path": "vendor/motorola/sanders"
+    "branch": "havoc"
+  },
+  {
+    "repository": "mendigodepijama/android_kernel_motorola_msm8953-sanders",
+    "target_path": "kernel/motorola/msm8953"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0"
+  }
+]
