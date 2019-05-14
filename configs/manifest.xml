@@ -544,5 +544,7 @@
             <name>IHDCPSession</name>
             <instance>wifidisplayhdcphal</instance>
         </interface>
+        <fqname>@1.0::IDSManager/wifidisplaydshal</fqname>
+        <fqname>@1.0::IHDCPSession/wifidisplayhdcphal</fqname>
     </hal>
 </manifest>
