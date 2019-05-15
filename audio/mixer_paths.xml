@@ -155,6 +155,16 @@
 	<ctl name="VoiceMMode2_Tx Mixer AFE_PCM_TX_MMode2" value="0" />
 	<!-- Multimode Voice2 end -->
 
+	<!-- Voip -->
+	<ctl name="PRI_MI2S_RX_Voice Mixer Voip" value="0" />
+	<ctl name="Voip_Tx Mixer TERT_MI2S_TX_Voip" value="0" />
+	<ctl name="Internal BTSCO SampleRate" value="BTSCO_RATE_8KHZ" />
+	<ctl name="INTERNAL_BT_SCO_RX_Voice Mixer Voip" value="0" />
+	<ctl name="Voip_Tx Mixer INTERNAL_BT_SCO_TX_Voip" value="0" />
+	<ctl name="AFE_PCM_RX_Voice Mixer Voip" value="0" />
+	<ctl name="Voip_Tx Mixer AFE_PCM_TX_Voip" value="0" />
+	<!-- Voip end -->
+
 	<!-- fm -->
 	<ctl name="Internal FM RX Volume" value="0" />
 	<ctl name="PRI_MI2S_RX Port Mixer INTERNAL_FM_TX" value="0" />
@@ -782,6 +792,21 @@
 
 	<path name="volte-call afe-proxy">
 		<path name="volte-call usb-headphones" />
+	</path>
+
+	<path name="compress-voip-call">
+		<ctl name="PRI_MI2S_RX_Voice Mixer Voip" value="1" />
+		<ctl name="Voip_Tx Mixer TERT_MI2S_TX_Voip" value="1" />
+	</path>
+
+	<path name="compress-voip-call bt-sco">
+		<ctl name="INTERNAL_BT_SCO_RX_Voice Mixer Voip" value="1" />
+		<ctl name="Voip_Tx Mixer INTERNAL_BT_SCO_TX_Voip" value="1" />
+	</path>
+
+	<path name="compress-voip-call bt-sco-wb">
+		<ctl name="Internal BTSCO SampleRate" value="BTSCO_RATE_16KHZ" />
+		<path name="compress-voip-call bt-sco" />
 	</path>
 
 	<path name="afe-proxy-playback afe-proxy">
