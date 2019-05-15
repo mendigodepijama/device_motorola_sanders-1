@@ -66,8 +66,9 @@ PRODUCT_PACKAGES += \
     audio.primary.msm8953 \
     audio.a2dp.default \
     audio.r_submix.default \
-    audio.usb.default \
     libaacwrapper \
+    libnl \
+    audio.usb.default \
     libaudio-resampler \
     libtinycompress
 
