@@ -1,4 +1,3 @@
-
 #
 # vendor props for sanders
 #
@@ -133,7 +132,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.enable.sglscale=1 \
     vendor.display.enable_default_color_mode=1 \
     vendor.gralloc.enable_fb_ubwc=1 \
-    vendor.display.disable_skip_validate=1
+    vendor.display.disable_skip_validate=1 \
+    debug.sf.latch_unsignaled=1 \
 
 # Wifi-Display
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -354,3 +354,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     config.foss.xml=1
     config.foss.path=/vendor/etc/FOSSConfig.xml
 
+#IDKY
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.model=sanders
+
+# Maintainer Unofficial
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer="@mendigodepijama"
