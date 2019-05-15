@@ -367,10 +367,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # FOSS CONFIGS
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.qcom.dpps.sensortype=3
-    ro.qualcomm.display.paneltype=1
-    ro.qualcomm.foss=1
-    config.foss.xml=1
+    ro.qcom.dpps.sensortype=3 \
+    ro.qualcomm.display.paneltype=1 \
+    ro.qualcomm.foss=1 \
+    config.foss.xml=1 \
     config.foss.path=/vendor/etc/FOSSConfig.xml
 
 #IDKY
