@@ -403,9 +403,9 @@
 
    <EncoderProfile quality="highspeedlow" fileFormat="mp4" duration="30">
         <Video codec="h264"
-               bitRate="42000000"
-              width="640"
-              height="480"
+               bitRate="14000000"
+               width="720"
+               height="480"
                frameRate="120" />
         <!-- audio setting is ignored -->
         <Audio codec="aac"
@@ -416,9 +416,9 @@
 
    <EncoderProfile quality="highspeedhigh" fileFormat="mp4" duration="30">
        <Video codec="h264"
-              bitRate="42000000"
-              width="640"
-              height="480"
+              bitRate="14000000"
+               width="720"
+               height="480"
               frameRate="120" />
       <!-- audio setting is ignored -->
       <Audio codec="aac"
@@ -429,8 +429,8 @@
 
    <EncoderProfile quality="highspeed480p" fileFormat="mp4" duration="30">
        <Video codec="h264"
-              bitRate="42000000"
-              width="640"
+              bitRate="14000000"
+              width="720"
               height="480"
               frameRate="120" />
        <!-- audio setting is ignored -->
@@ -551,9 +551,9 @@
 
     <EncoderProfile quality="high" fileFormat="mp4" duration="30">
       <Video codec="h264"
-             bitRate="17000000"
-             width="1920"
-             height="1080"
+             bitRate="51000000"
+             width="3840"
+             height="2160"
              frameRate="30" />
 
       <Audio codec="aac"
@@ -669,9 +669,9 @@
 
     <EncoderProfile quality="timelapsehigh" fileFormat="mp4" duration="30">
       <Video codec="h264"
-             bitRate="17000000"
-             width="1920"
-             height="1080"
+             bitRate="51000000"
+             width="3840"
+             height="2160"
              frameRate="30" />
 
       <!-- audio setting is ignored -->
