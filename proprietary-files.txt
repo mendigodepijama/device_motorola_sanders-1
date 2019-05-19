@@ -101,6 +101,36 @@ etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin
 etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin
 etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin
 etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat
+
+# ACDB
+lib/libmdsprpc_system.so
+lib/libadsprpc_system.so 
+lib/libsdsprpc_system.so
+lib/libcdsprpc_system.so
+lib64/libmdsprpc_system.so
+lib64/libadsprpc_system.so
+lib64/libsdsprpc_system.so
+lib64/libcdsprpc_system.so
+
+# Bluetooth
+lib/android.hardware.bluetooth.a2dp@1.0.so
+lib64/android.hardware.bluetooth.a2dp@1.0.so
+
+# Bluetooth (aptX) - from crosshatch - PD1A.180720.030
+lib64/libaptX_encoder.so|0cebad28afcf29f931bdc2d24fce2730dc882ecf
+lib64/libaptXHD_encoder.so|90f47f10af28b3ead143200cb4370b847c513127
+
+# Camera
+lib/vendor.qti.hardware.camera.device@1.0.so
+lib64/vendor.qti.hardware.camera.device@1.0.so
+
+# O cam libs (For GCAM)
+lib/android.frameworks.sensorservice@1.0-v27.so|1369bbab88fb494b8815ab0748b38762aff3c62f
+lib/libvidhance_gyro.so|b5e3fd3ce40e3c2ea2a225fe05704052474b9ddd
+lib/hw/camera.msm8953.so|4b2ca77a95bd3252d5474959fe2585c06cf00d35
+lib64/android.frameworks.sensorservice@1.0-v27.so|3a9b63e58bf2e2e5bc9b952975a34add1ddfb874
+
+# CNE
 etc/permissions/cneapiclient.xml
 etc/permissions/com.motorola.hardware.dtv.xml
 etc/permissions/com.qti.snapdragon.sdk.display.xml
