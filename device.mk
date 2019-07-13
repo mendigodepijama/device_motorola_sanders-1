@@ -181,7 +181,9 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgnsspps \
     android.hardware.gnss@1.1-impl-qti \
-    android.hardware.gnss@1.1-service-qti
+    android.hardware.gnss@1.1-service-qti \
+    libqsap_sdk \
+    libqsap_shim
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
