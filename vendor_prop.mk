@@ -354,3 +354,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     config.foss.xml=1
     config.foss.path=/vendor/etc/FOSSConfig.xml
 
+# GPS
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.location.osnlp.region.package=com.google.android.gms
