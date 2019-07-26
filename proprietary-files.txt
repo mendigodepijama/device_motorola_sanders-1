@@ -802,6 +802,7 @@ vendor/lib/rfsa/adsp/libscveTextReco_skel.so
 vendor/lib/sensor_calibrate.so
 vendor/lib/sensors.ssc.so
 vendor/qcril.db
+
 # Wi-Fi Display
 bin/wfdservice
 etc/init/wfdservice.rc
@@ -847,3 +848,9 @@ vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdmmservice.so
 vendor/lib/libwfdmodulehdcpsession.so
 vendor/lib64/libwfdhdcpcp.so
+
+
+# Dirac - from Xiaomi
+vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
+vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
+vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
